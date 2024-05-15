@@ -39,10 +39,37 @@ La carpeta `Silver` representa la **capa Silver** en la ingeniería de datos. Es
 ## Golden
 
 La carpeta `Golden` representa la **capa Golden** en la ingeniería de datos. Esta capa se utiliza para el almacenamiento de los datos que están listos para el análisis y el modelado. Los datos en esta capa son los que se utilizan para el entrenamiento y la evaluación de los modelos de machine learning. Esta carpeta puede contener los datos finales en un formato adecuado para el modelado, así como scripts y notebooks para la exploración y el análisis de los datos.
-
+![Arquitectura medallion](Medallion.png)
 ## Machine Learning
 
 La carpeta `Machine Learning` se utiliza para el **entrenamiento de modelos** de machine learning. Contiene scripts y notebooks para la definición, el entrenamiento y la evaluación de los modelos, así como para la realización de predicciones. También puede contener los modelos entrenados y los resultados de las evaluaciones.
 
 Espero que esta descripción te sea útil para entender la estructura de carpetas de este proyecto. 
 
+# Implementación del Proyecto
+
+## Azure y Contenedores
+
+Este proyecto se desarrolló utilizando **Azure**, una plataforma de servicios en la nube de Microsoft que ofrece una variedad de servicios, incluyendo el alojamiento y la gestión de contenedores. Un **contenedor** es una unidad estándar de software que empaqueta el código y todas sus dependencias para que la aplicación se ejecute de manera rápida y confiable de un entorno informático a otro. https://azure.microsoft.com/es-es/products/category/containers
+
+## Azure Blob Storage
+
+Este proyecto se desarrolló utilizando **[Azure Blob Storage](https://azure.microsoft.com/es-es/products/storage/blobs#feature-uidb396)**, un servicio de almacenamiento en la nube de Microsoft que permite guardar grandes cantidades de datos no estructurados, como texto o binarios. Los datos del bucket `cse-cic-ids2018` se almacenan en un contenedor de Blob Storage en Azure.
+
+## Databricks
+
+Para el desarrollo del código, se utilizó **Databricks**, una plataforma de análisis de datos basada en Apache Spark que proporciona un entorno de trabajo unificado para el análisis de datos, la ciencia de datos y el aprendizaje automático. Databricks facilita la colaboración entre los miembros del equipo y permite el desarrollo interactivo de código en notebooks.
+
+## Spark y PySpark
+
+**Spark** es un motor de procesamiento de datos en memoria para el procesamiento de datos a gran escala. Permite el procesamiento distribuido de conjuntos de datos a través de clústeres de computadoras utilizando su modelo de programación basado en conjuntos de datos distribuidos resilientes (RDD) y su sistema de procesamiento de consultas, Spark SQL.
+
+**PySpark** es la interfaz de Python para Spark que permite aprovechar las capacidades de Spark utilizando Python. PySpark es particularmente útil cuando se trabaja con grandes conjuntos de datos, ya que utiliza la potencia de Spark para realizar operaciones de procesamiento de datos de manera eficiente en paralelo.
+
+## Instalación de PySpark
+
+Para instalar [PySpark](https://spark.apache.org/docs/latest/api/python/index.html), puedes usar pip, el administrador de paquetes de Python. Aquí tienes el código para instalar PySpark:
+
+```python
+pip install pyspark
+```
