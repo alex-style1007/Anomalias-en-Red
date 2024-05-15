@@ -206,6 +206,8 @@ Utiliza `VectorAssembler` para combinar todas las características en una sola c
 
 # Definir y entrenar el modelo de red neuronal
 
+![Animacion](https://github.com/alex-style1007/Anomalias-en-Red/blob/main/Images/red.gif)
+
 Una **red neuronal** en ciencia de datos es un modelo inspirado en el funcionamiento del cerebro humano. Está compuesta por unidades de procesamiento, llamadas "neuronas", organizadas en capas. Cada neurona recibe una serie de entradas, las pondera en función de unos pesos (que son los parámetros que aprende el modelo) y aplica una función de activación para producir una salida. La información fluye desde la capa de entrada hasta la capa de salida, posiblemente a través de una o más capas ocultas. El aprendizaje se realiza ajustando los pesos para minimizar una función de pérdida.
 
 En este caso, se esta definiendo la estructura de capas para el modelo de perceptrón multicapa (MLP), que es un tipo de red neuronal. Luego, se entrena el modelo utilizando los datos de entrenamiento.
