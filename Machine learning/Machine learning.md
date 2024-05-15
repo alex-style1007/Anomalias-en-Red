@@ -252,7 +252,7 @@ print(f'Accuracy on test set: {accuracy_test}')  # Imprimir la precisión en el 
 ```
 
 # Definir el modelo de árbol de decisión
-
+![Animacion](https://github.com/alex-style1007/Anomalias-en-Red/blob/main/Images/desicion.png)
 Un **árbol de decisión** es un modelo de aprendizaje supervisado que se utiliza en machine learning y estadística. Se representa como un árbol donde cada nodo interno representa una característica (o atributo), cada rama representa una regla de decisión y cada hoja representa un resultado, es decir, la predicción del modelo.
 
 El objetivo de un árbol de decisión es dividir los datos en grupos homogéneos basándose en las características. La "mejor" división es la que reduce más la incertidumbre (por ejemplo, minimiza la entropía o la impureza de Gini).
