@@ -141,6 +141,7 @@ feature_pipeline = Pipeline(stages=[indexer_ataque, vectorizer])  # Define un Pi
 feature_model = feature_pipeline.fit(train)  # Ajusta el pipeline a los datos de entrenamiento y crea un modelo de características
 ```
 # Random Forest
+![Animacion](https://github.com/alex-style1007/Anomalias-en-Red/blob/main/Images/Random.gif)
 **Random Forest** es un algoritmo de aprendizaje supervisado que se utiliza en machine learning y estadística. Es una combinación (o “ensamble”) de árboles de decisión, generalmente entrenados con el método de “bagging”. La idea principal del bagging es que la combinación de modelos de aprendizaje aumenta el resultado general.
 
 1. ¿Cómo funciona?
