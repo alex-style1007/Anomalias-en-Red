@@ -28,15 +28,16 @@ Este proyecto sigue una estructura de carpetas específica que facilita la organ
 
 Esta carpeta se utiliza para la **extracción de datos** desde el bucket `cse-cic-ids2018` en AWS. Contiene scripts y notebooks que se utilizan para acceder al bucket, extraer los datos y guardarlos localmente para su posterior procesamiento.
 
-## Bronze
+## Arquitectura Medallion
+### Bronze
 
 La carpeta `Bronze` representa la **capa Bronze** en la ingeniería de datos. Esta capa se utiliza para el almacenamiento de los datos en bruto tal como se extraen del bucket `cse-cic-ids2018` en AWS. Los datos en esta capa no han sido limpiados ni transformados, y representan el estado original de los datos. Esta carpeta puede contener los datos en bruto, así como scripts y notebooks para la extracción inicial de los datos.
 
-## Silver
+### Silver
 
 La carpeta `Silver` representa la **capa Silver** en la ingeniería de datos. Esta capa se utiliza para el preprocesamiento y la transformación de los datos extraídos. Los datos en esta capa se limpian, se normalizan y se transforman en un formato que puede ser utilizado para el análisis y el modelado. Esta carpeta puede contener scripts y notebooks para el preprocesamiento de datos, así como los datos transformados.
 
-## Golden
+### Golden
 
 La carpeta `Golden` representa la **capa Golden** en la ingeniería de datos. Esta capa se utiliza para el almacenamiento de los datos que están listos para el análisis y el modelado. Los datos en esta capa son los que se utilizan para el entrenamiento y la evaluación de los modelos de machine learning. Esta carpeta puede contener los datos finales en un formato adecuado para el modelado, así como scripts y notebooks para la exploración y el análisis de los datos.
 
