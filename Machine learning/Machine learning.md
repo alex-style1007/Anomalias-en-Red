@@ -47,7 +47,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 wasbs_path = f"wasbs://{blob_container_name}@{blob_account_name}.blob.core.windows.net/"
 ```
-##Datos
+## Datos
 1. Definir las proporciones de división: Se establecen las proporciones para dividir el DataFrame en conjuntos de entrenamiento, validación y prueba. En este caso, se han asignado las proporciones predeterminadas de 60% para entrenamiento, 20% para validación y 20% para prueba.
 2. Ruta al archivo Delta: Se especifica la ruta al archivo Delta. En este caso, se utiliza la variable delta_path, que parece estar compuesta por una ruta base (wasbs_path + blob_origin_path).
 3. Leer el DataFrame desde Delta: Se utiliza Spark para leer el DataFrame desde el formato Delta en la ruta especificada.
