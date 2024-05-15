@@ -40,7 +40,6 @@ La carpeta `Silver` representa la **capa Silver** en la ingeniería de datos. Es
 
 La carpeta `Golden` representa la **capa Golden** en la ingeniería de datos. Esta capa se utiliza para el almacenamiento de los datos que están listos para el análisis y el modelado. Los datos en esta capa son los que se utilizan para el entrenamiento y la evaluación de los modelos de machine learning. Esta carpeta puede contener los datos finales en un formato adecuado para el modelado, así como scripts y notebooks para la exploración y el análisis de los datos.
 
-![Arquitectura medallion](Medallion.png)
 ## Machine Learning
 
 La carpeta `Machine Learning` se utiliza para el **entrenamiento de modelos** de machine learning. Contiene scripts y notebooks para la definición, el entrenamiento y la evaluación de los modelos, así como para la realización de predicciones. También puede contener los modelos entrenados y los resultados de las evaluaciones.
